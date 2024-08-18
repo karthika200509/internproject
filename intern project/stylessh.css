@@ -1,0 +1,146 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box; 
+}
+#title {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./bk.7.avif );
+    background-size: cover;
+    background-position: center;
+}
+ .name { 
+    color: aliceblue;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 250px;
+    float: right;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ nav ul {
+    display: flex;
+    font-size: 40px;
+    float: right;
+ }
+ nav ul li{
+    padding: 10px 20px;
+ } 
+ nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: royalblue;
+    transition: 0s;
+ }
+ .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: lavender;
+    /* background-color: aquamarine; */
+ }
+ .about img{
+    height: 70vh;
+    width: 50%;
+ }
+ .about_content{
+   font-size: 35px;
+   margin-left: 80px;
+   margin-top: 100px;
+ }
+.main{
+   display: flex;
+}
+.btn{
+   background-color: blue;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+   margin-top: 95px;
+   text-decoration: none;
+}
+.btn:hover{
+   background-color: transparent;
+   border: 2px solid blue;
+}
+.Menu_list img{
+   height: 100pv;
+   width: 100%;
+}
+.content{
+   height: 100vh;
+    width: 100%;
+    background-image: url(./Menu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+   font-size: 50px;
+   /* padding-top: 100px;
+   padding-left: 555px;
+    */
+}
+#bkf{
+   color: lightblue;
+   font-size: 30px;
+   margin-top: 20px;
+}
+.tag{ 
+   padding-left: 50px;
+   font-size: 35px;
+} 
+.j_tag{
+   color: antiquewhite;
+}
+.v_tag{
+   color: antiquewhite;
+}
+#karthi{
+   color: lightblue;
+   font-size: 30px;
+}
+.btn_tag{
+   background-color: white;
+   color: rgba(0, 0, 0, 0.363);
+   font-weight: bold;
+   font-size: 35px;
+   border-radius: 5px;
+   margin-top: 10px;
+   padding-left: 25px;
+   text-decoration: none;
+}
+.btn_tag{
+   display: flex;
+}
+.btn_tag:hover{
+   background-color: transparent;
+   border: 2px solid blue;
+}
+ .con{
+   font-size: 35px;
+   font-weight: bold;
+   margin-top: 3px;
+   
+   /* justify-content: center; */
+ }
+ .cont{
+   background-color: lavender;
+   padding: 100px 0px;
+ }
+ .k_tag{
+   padding-left: 55px; 
+   /* font-weight: bold;   */
+ }
+ .s_tag{
+   margin-top: 20px;
+   font-weight: bold;
+ }
